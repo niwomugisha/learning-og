@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   background-image: url(kigali-night.jpg);
+   background-size: cover;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.box{
+    height: 30px;
+    display: flex;
+    cursor: pointer;
+    padding: 10px 20px;
+    background: wheat;
+    border-radius: 30px;
+    align-items: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0);
+
+}
+.box:hover input{
+   width: 400px; 
+}
+.box input{
+    width: 0;
+    outline: none;
+    border: none;
+    font-weight: 500px;
+    transition: 0.8s;
+    background: transparent;
+}
+.box a.search{
+    font-size: 18px;
+    color: aqua;
+}
